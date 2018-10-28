@@ -6,5 +6,3 @@ function getTotalNumberOfNewYaersEveSundays(a, b) {
 	}
 	return n;
 }
-
-console.log(getTotalNumberOfNewYaersEveSundays(2017,2024));

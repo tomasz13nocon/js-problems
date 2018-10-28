@@ -4,5 +4,3 @@ function triangleArea(a, b, c) {
 	var p = (a+b+c)/2;
 	return Math.round( Math.sqrt(p*(p-a)*(p-b)*(p-c)) * 100 ) / 100;
 }
-
-console.log(triangleArea(3,4,5));
