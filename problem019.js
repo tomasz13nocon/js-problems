@@ -6,9 +6,6 @@ function carry(a) {
 		if (i-- > 1) {
 			return arguments.callee;
 		}
-		console.log(args);
 		return a(...args);
 	}
 }
-
-console.log(carry((a,b) => a-b)(2)(1));
